@@ -1,2 +1,68 @@
-package PACKAGE_NAME;public class API {
+public class API {
+    /*
+    -->Aplicationda temel 3 parça vardır bunlar -> UI-API-DateBase
+    -->UI data base ile direk etkileşime girmez biri data güvenliği diğeri ise çok fazla bilgi arasından seçmesi gerekiyor olması
+    -->Request kullanıcının UI'den gönderdiği isteğe denir.
+    -->Autoraziation yetkilendirmedir erişebecekler sınırlıdır.
+    -->XML format banka tarzı alanlarda apı'lar arasıdanki iletişimi sağlamak için kullanılır.
+    -->API data base'ın güvenliğini sağlar
+    -->Post -> Create / Get -> Read  / Put -> Update / Delete -> Delete
+    -->Swagger dökümanı websitenin haritasını verir
+    -->Gönderilen requestin mutlaka bir karşılığı vardır.
+    -->API farklı yazılım uygulamalarının birbirleriyle iletişim kurmak için mesajlaşma aracı denilebilir
+    -->Farklı yazılım araçlarının nasıl etkileşimde bulunması gerektiğini belirliyor
+    -->API requestler end user olarak browser aracılığıyla gönderdiğimiz requestlerdir.
+    -->Swagger apı dokümanıdır
+    -->HTTPS -> Bir apı veriyi nasıl işleyeceğini ve sınırlarını / diğer uygulamarla apı ve database ile neyi ne kadar paylaşacağını belirlen requesttir.
+    -->Postman hem apı geliştirme hem test etme aracıdır.
+    -->Raw demek sana ben bomboş bir kağıt bırakıyorum data base'in anlayacağı dilde anlat derdini
+    -->Authırization neleri yapabileceğimizi uygulama içinde neleri görebileceğimizi sınırlıyor.
+    -->Authentication bizim kim olduğumuzu sorgulyor siteye giriş iznimizin olup olmadığını sorguluyor. Kişiyi doğrulama yetkiyi doğrulama
+    -->Base url -> Domain dediğimiz anasayfanın webaytına ait olan home page url'e denir
+    -->Request ile beraber gönderilen dataya Payload denir.
+    -->Postman Apı geliştirilenler kullanıcı arayüzü ile apiler arasındaki geçiş hızından dolayı javascript kullanıyorlar
+    -->Soap api sadece xml kabul ediyor
+    -->Apı de responseları eli alınca assertion yapılır
+    -->Java objectini Json formatına dönüştürmek serialization demektir. Tam tersi yani json'u javaya çevirmek De_seriliaziaton
+    -->Bir datayı en hızı saklayan HasMap'tır karışık sıralar. TreeMap en hızlı olması için önce HasMap oluştururlur onu treeMap ile kastedilirse hızlanır
+    -->Tokenler, Apı Keyler hepsi sadece güvenlik amaçlı api'lar arası haberleşmeyi sağlayan key'lerdir.
+    -->Json formatı api'lerin en çok kullandığı formattır.
+    -->"Naming convention" (isimlendirme kuralı), yazılım geliştirme, veritabanı tasarımı, dokümantasyon veya herhangi bir teknik süreçte, değişkenlerin, fonksiyonların, dosyaların, sınıfların veya diğer öğelerin nasıl isimlendirileceği konusunda belirlenen kurallardır.
+     İsimlendirme kuralları, kodun tutarlılığını, okunabilirliğini ve bakımını kolaylaştırmak için kullanılır.
+    -->Swegger websitesi ile nasıl etkileşime geçeceğimizi söyler
+    -->Postman en yaygın manuel test aracıdır.
+    -->Websitenin ana sayfasını sunan domain'e Base Url denir.
+    -->Api testinde önce Request nedir daha sonra Endpoint nedir ve Data akışı varmı (authorizorion vs)?
+    -->HTTP (Hper Text Transfer Protocol=  Bir api nasıl işleyeceğimizi bunun sınırlarını, uygulamanın kendi data base ile kullanıcının etkileşime geçmek istediği diğer uygulamalrın
+    api ve data base ile neyi ne kadar paylaşacağının sınırlarını belirleyen requestlerdir.
+    -->endpoint tek başına bir api'dir
+    -->Connection aynı apileri requestleri aynı anda sunan dosya denilebilri
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    -->
+    */
 }
